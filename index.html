@@ -12,35 +12,21 @@
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet">
     <link rel="stylesheet" href="css/app.css">
 
-
     <script type="text/javascript" src="//code.jquery.com/jquery-1.10.2.min.js"></script>
     <script type="text/javascript" src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
 </head>
 
 <body>
-
-   
-   <div class="container">
-       <div class="row">
-           <div class="col-sm-2">
-               <input type="range" orient="vertical" min="0" max="100" step="25" value="100"/>
-               
-           </div>
-           <div class="col-sm-2">
-               <button>auto charge</button>           
-           </div>
-           <div class="col-sm-6">
-               <div id="battery">
-                   <span></span>
-                   <span></span>
-                   <span></span>
-                   <span></span>
-               </div>
-           </div>
-       </div>
-   </div>
-
-    
+       
+    <div id="battery">
+        <div class="bar">1</div>
+        <div class="bar">2</div>
+        <div class="bar">3</div>
+        <div class="bar">4</div>
+    </div>   
+       
+       
+       
     <script src="js/battery/index.js"></script>
     <script src="js/main.js"></script>
 </body>
